@@ -6,8 +6,7 @@ import streamlit as st
 
 @st.cache_data 
 def load_data():
-    data = pd.read_csv(
-        '/Users/user/Desktop/crime_rate/crime.csv')
+    data = pd.read_csv('crime.csv')
     return data
 
 
